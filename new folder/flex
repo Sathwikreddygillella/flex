@@ -1,0 +1,41 @@
+<!DOCTYPE>
+<html>
+<head>
+<style>
+.container{
+  display : flex;
+  flex-wrap : wrap;
+  justify-content : center;
+}
+img{
+  width : 450px;
+  height : 350px;
+  margin : 5px;
+  transition : all 1s;
+  box-shadow : 5px 5px 5px black;
+}
+img:hover{
+  transform : rotate(60deg);
+  transform: skewY(40deg);
+}
+h1{
+  border-bottom : 2px solid blue;
+  width : 400px;
+  text-align : center : center;
+  border-right : 2px solid orange;
+}
+</style>
+</head>
+<body>
+<h1>WILD ANIMALS</h1>
+<h2>Will learn flex</h2>
+<div class="container">
+<img src="https://news.cgtn.com/news/78637a4e316b544f3455544d30456a4e35677a4e31457a6333566d54/img/d96bd8405a214bdc984449cd230deec2/d96bd8405a214bdc984449cd230deec2.jpg"/>
+<img src="https://media.4-paws.org/c/8/d/1/c8d144f4bf7df97ae51492de7216297cedcbd952/VP0175078-1936x1339-1920x1328.jpg"/>
+<img src="https://aniportalimages.s3.amazonaws.com/media/details/animals_11_nSjPC6b.jpg"/>
+<img src="https://www.israel21c.org/wp-content/uploads/2020/07/main-pic-4-1168x657.jpg"/>
+<img src="https://c8.alamy.com/comp/E45CBH/red-kangaroo-macropus-rufus-male-standing-on-back-legs-flinders-ranges-E45CBH.jpg"/>
+<img src="https://s.w-x.co/util/image/w/in-bear.jpg?v=at&w=485&h=273"/>
+</div>
+</body>
+</html>
